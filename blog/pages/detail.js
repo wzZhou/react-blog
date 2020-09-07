@@ -69,9 +69,9 @@ const Detail = () => {
                 <span><StarTwoTone /> 5498人</span>
               </div>
               <div className="detailed-content" >
-                <ReactMarkdown 
-                  source={markdown} 
-                  escapeHtml={false}  
+                <ReactMarkdown
+                  source={markdown}
+                  escapeHtml={false}
                 />
               </div>
             </div>
